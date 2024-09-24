@@ -1,12 +1,13 @@
 // Qui scriviamo il codice JS
 
 //let è una parola chiave che serve a diciarare delle variabili in JS
+let firstName;
 do {
-    let firstName = prompt("Qual è il tuo nome?");
+    firstName = prompt("Qual è il tuo nome?");
 } while (firstName === null);
 
 let punteggio;
-punteggio === 0;
+punteggio = 0;
 
 let ris1 = prompt("PRIMA DOMANDA: Qual è la capitale di Italia? ");
 ris1 = ris1.toLowerCase().trim();
@@ -35,16 +36,16 @@ else{
     alert("Hai sbagliato! Il fiume che passa per Roma è il  Tevere");
 }
 
-let ris4 = prompt("QUARTA DOMANDA: Dove abito? ");
+let ris4 = prompt("QUARTA DOMANDA: Il Sole è una stella? ");
 ris4 = ris4.toLowerCase().trim();
-if(ris4 === "palo"){
+if(ris4 === "si"){
     punteggio++;
 }
 else{
-    alert("Hai sbagliato! Io abito a Palo");
+    alert("Hai sbagliato! Il sole è una stella");
 }
 
-let ris5 = prompt("QUINTA DOMANDA: Dove si trova la Torre Eiffel? ");
+let ris5 = prompt("QUINTA DOMANDA: In quale nazione si trova la Torre Eiffel? ");
 ris5 = ris5.toLowerCase().trim();
 if(ris5 === "francia"){
     punteggio++;
